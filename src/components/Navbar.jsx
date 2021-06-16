@@ -8,7 +8,7 @@ import {
   Button,
 } from "react-bootstrap";
 import logo from "../images/fb-leverage-of-coding.jpg";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 
 
 // !Lokal resimleri gosterilbilmek icin imporrt yontemiyle eklemek gerekiyor. Aksi taktirde resimler gozukmuyor.
