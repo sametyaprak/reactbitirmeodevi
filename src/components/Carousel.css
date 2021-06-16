@@ -1,0 +1,14 @@
+#carousel{
+    margin: auto;
+    text-align: center;
+    width: 1000px;    
+}
+
+.photos{
+    margin: auto;
+    width: 900px;
+    border-radius: 15px;
+    padding: 10px;
+    -webkit-box-shadow: 29px 19px 25px -4px rgba(0,0,0,0.42); 
+    box-shadow: 29px 19px 25px -4px rgba(0,0,0,0.42);
+}

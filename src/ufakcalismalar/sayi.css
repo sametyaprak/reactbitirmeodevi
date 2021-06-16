@@ -1,0 +1,33 @@
+* {
+    margin: 50px;
+    align-content: center;
+}
+
+#center-box{
+    width: 800px;
+    height: 100px;
+    font-size: 80px;
+    margin: auto;
+    align-items: center;
+    align-content: center;    
+}
+
+.col{
+    margin: 50px;
+}
+.main-body{
+    background: #094706;
+    background: -moz-radial-gradient(center, #094706 0%, #37A1A3 100%);
+    background: -webkit-radial-gradient(center, #094706 0%, #37A1A3 100%);
+    background: radial-gradient(ellipse at center, #094706 0%, #37A1A3 100%);
+}
+
+#sayiTahmin{
+ margin-top: 50px;   
+}
+
+.text{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
