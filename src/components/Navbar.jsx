@@ -8,6 +8,7 @@ import {
   Button,
 } from "react-bootstrap";
 import logo from "../images/fb-leverage-of-coding.jpg";
+import { Link } from "react-router-dom";
 
 
 
@@ -23,8 +24,8 @@ function MyNav() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="http://localhost:3000/personel1">Calisanlarimiz</Nav.Link>
-            <Nav.Link href="http://localhost:3000/personel2">Musterilerimiz</Nav.Link>
+            <Nav.Link> <Link to="/personel1">Calisanlarimiz</Link> </Nav.Link>
+            <Nav.Link> <Link to="/personel2">Musterilerimiz</Link> </Nav.Link>
             <NavDropdown title="Ufak Calismalar" id="basic-nav-dropdown">
               <NavDropdown.Item href="../ufakcalismalar/sayi.html">Sayi Oyunu</NavDropdown.Item>
               <NavDropdown.Item href="http://localhost:3000/form1">Form1</NavDropdown.Item>
