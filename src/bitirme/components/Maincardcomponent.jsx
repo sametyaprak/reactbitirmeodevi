@@ -16,6 +16,7 @@ export default function Maincardcomponent() {
       .get("https://api.github.com/users")
       .then((response) => setAlldata(response.data));
   }, []);
+  
 
   return (
     <div>
